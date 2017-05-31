@@ -2,7 +2,7 @@
 
 Short url to this project:
 
-     http://moourl.me/FJn 
+     http://moourl.me/FJn
 
 :toc:
 
@@ -11,13 +11,13 @@ Short url to this project:
 * Docker is a technology for lightweight VMs. Well, that's not true, they're not VMs. But they feel like it.
   * [Why containers are lightweight but not VMs](https://www.upguard.com/articles/docker-vs.-vmware-how-do-they-stack-up). **<-- READ this one**
   * Containers are not VMs, a picture
-    ![Picture for containers vs VMs](https://www.sdxcentral.com/wp-content/uploads/2016/01/containers-versus-virtual-machines-docker-inc-rightscale.jpg) [from this article](https://www.sdxcentral.com/cloud/containers/definitions/containers-vs-vms/) 
-  * Technologies that Docker and other container runtimes are using 
+    ![Picture for containers vs VMs](https://www.sdxcentral.com/wp-content/uploads/2016/01/containers-versus-virtual-machines-docker-inc-rightscale.jpg) [from this article](https://www.sdxcentral.com/cloud/containers/definitions/containers-vs-vms/)
+  * Technologies that Docker and other container runtimes are using
     ![Picture for technologies Docker is built with](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Docker-linux-interfaces.svg/400px-Docker-linux-interfaces.svg.png) [from Wikimedia](https://commons.wikimedia.org/wiki/File:Docker-linux-interfaces.svg)
   * [VMs are houses, Docker containers are appartment buildings](https://blog.docker.com/2016/03/containers-are-not-vms/).
-* You can do containers without Docker. Docker is just an implementation! Using Docker has been a bumpy ride, so it makes sense to consider alternatives. 
+* You can do containers without Docker. Docker is just an implementation! Using Docker has been a bumpy ride, so it makes sense to consider alternatives.
   * [rkt](https://coreos.com/rkt) by CoreOS. [rkt compared to other runtimes](https://coreos.com/rkt/docs/latest/rkt-vs-other-projects.html). [rkt vs Docker (2016)](https://bobcares.com/blog/docker-vs-rkt-rocket/)
-  * There's a [standard for containers](https://www.opencontainers.org/)! Well, actually two, [one for the runtime](https://github.com/opencontainers/runtime-spec), [one for the images](https://github.com/opencontainers/image-spec). 
+  * There's a [standard for containers](https://www.opencontainers.org/)! Well, actually two, [one for the runtime](https://github.com/opencontainers/runtime-spec), [one for the images](https://github.com/opencontainers/image-spec).
 
 ## Words & Terminology
 
@@ -43,5 +43,12 @@ To explore Docker on your local, have a look at this [easy to follow step-by-ste
 
 ### Docker-compose: Building containers and running them together
 
-### Docker Swarm
+Explore docker-compose!
 
+* [Two very basic docker-compose koans](./docker-compose-koans/)
+* Django with docker-compose
+  * [ ] Complete this [Runnable step-by-step guide](https://runnable.com/docker/python/docker-compose-with-django-apps).
+  * [ ] Explore this [full-blown Django setup](https://github.com/damsonn/django-docker-compose), with Postgres DB, RabbitMQ, NGINX.
+
+
+### Docker Swarm

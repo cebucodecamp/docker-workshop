@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  nginx:
+    # TODO There is no image in this service!
+    # Tell docker-compose to build this image using the Dockerfile and other contents
+    # in the "src" Directory.
+    #
+    # https://docs.docker.com/compose/compose-file/#build
+
+    ports:
+      - "8080:80"

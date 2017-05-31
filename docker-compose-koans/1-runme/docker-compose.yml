@@ -1,0 +1,15 @@
+version: "2"
+
+services:
+  nginx:
+    image: "nginx:alpine"
+    # TODO We need the two lines at the end! Please uncomment them.
+    #
+    # 8080 is the port on your host, that you'll visit in your browser.
+    # It's being mapped to port 80 inside the container, to which NGINX
+    # is listening by default.
+    #
+    # For more info see: https://docs.docker.com/compose/compose-file/#ports
+    #
+    # ports:
+    #   - "8080:80"
