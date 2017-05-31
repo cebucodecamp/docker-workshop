@@ -35,9 +35,13 @@ In the following I'm trying to show a few analogue words from related domains, s
 
 ## Tutorials, Goals & Resources
 
+Here's a cool [online live-coding tutorial by Katacoda](https://www.katacoda.com/courses/docker). It covers a lot: volumes, networking, docker-compose, Docker Swarm
+
 ### Docker for Beginners
 
-### Docker-compose
+To explore Docker on your local, have a look at this [easy to follow step-by-step guide by Gitlab](https://gitlab.com/bti360-kata/docker-intro/wikis/Homework).
 
-### Docker swarm
+### Docker-compose: Building containers and running them together
+
+### Docker Swarm
 
