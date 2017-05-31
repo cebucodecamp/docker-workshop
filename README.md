@@ -4,6 +4,8 @@ Short url to this project:
 
      http://moourl.me/FJn 
 
+:toc:
+
 ## What is it?
 
 * Docker is a technology for lightweight VMs. Well, that's not true, they're not VMs. But they feel like it.
