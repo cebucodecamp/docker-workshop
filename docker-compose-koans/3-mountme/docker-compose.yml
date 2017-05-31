@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  nginx:
+    image: "nginx:alpine"
+    ports:
+      - "8080:80"
+    # TODO Define a volume, so that the "mnt/" directory gets mounted to /usr/share/nginx/html/
+    # You can use relative paths!
+    #
+    # https://docs.docker.com/compose/compose-file/#volumes

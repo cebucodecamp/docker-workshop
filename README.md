@@ -45,10 +45,11 @@ To explore Docker on your local, have a look at this [easy to follow step-by-ste
 
 Explore docker-compose!
 
-* [Two very basic docker-compose koans](./docker-compose-koans/)
+* [Three very basic docker-compose koans](./docker-compose-koans/)
 * Django with docker-compose
   * [ ] Complete this [Runnable step-by-step guide](https://runnable.com/docker/python/docker-compose-with-django-apps).
   * [ ] Explore this [full-blown Django setup](https://github.com/damsonn/django-docker-compose), with Postgres DB, RabbitMQ, NGINX.
 
-
 ### Docker Swarm
+
+?
